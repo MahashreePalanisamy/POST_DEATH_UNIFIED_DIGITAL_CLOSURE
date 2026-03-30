@@ -1,17 +1,3 @@
-package com.postdeath.controllers;
-
-import com.postdeath.dto.UserDTO;
-import com.postdeath.dto.UserRegistrationDTO;
-import com.postdeath.dto.UserDeathNotificationDTO;
-import com.postdeath.entities.User;
-import com.postdeath.services.UserService;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-// ✅ ADD THIS IMPORT (NEW)
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
